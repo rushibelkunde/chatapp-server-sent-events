@@ -1,8 +1,8 @@
 import { PrismaClient } from "@prisma/client";
 
-let db : PrismaClient;
+let db: PrismaClient;
 
-db = new PrismaClient()
-db.$connect()
+db = new PrismaClient();
+db.$connect();
 
-export {db}
+export { db };
